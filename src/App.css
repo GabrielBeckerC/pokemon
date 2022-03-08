@@ -57,13 +57,15 @@ body {
 }
 
 .PokemonInfo h3, h4 {
-  margin: 5px;
+  margin: 8px;
 }
 
 .PokemonInfo img {
   width: 230px;
   -webkit-transition: -webkit-transform .5s ease;
   transition: transform .5s ease;
+  background-color: palegoldenrod;
+  border-radius: 10px;
 }
 
 .PokemonInfo img:hover {

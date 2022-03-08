@@ -42,7 +42,7 @@ function App() {
           type="text"
           onChange={(event) => setPokemonName(event.target.value)}
         />
-        <button class="big-button" onClick={searchPokemon}>Procurar Pokémon</button>
+        <button className="big-button" onClick={searchPokemon}>Procurar Pokémon</button>
       </div>
       <div className="PokemonInfo">
         {!chosen ? (
@@ -57,9 +57,8 @@ function App() {
             <h3>Espécie: {pokemonInfo.species}</h3>
             <h3>Tipo </h3>
             <h3>
-              {pokemonInfo.type.map((type) => {
-                console.log(type.type.name);
-                return <button className="Type"> {type.type.name} </button>;
+              {pokemonInfo.type.map((type, index) => {
+                return <button  key={index} className="Type"> {type.type.name} </button>;
               })}
             </h3>
             <h4>HP: {pokemonInfo.hp}</h4>
