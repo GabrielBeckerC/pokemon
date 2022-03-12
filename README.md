@@ -1,3 +1,15 @@
+# Pokémon Stats
+
+### Ajustes e melhorias
+
+O projeto ainda está em desenvolvimento e as próximas atualizações serão voltadas nas seguintes tarefas:
+
+- [x] Criar ligação com poke api
+- [x] Estilização de botões e backgrounds
+- [x] Efeitos de botão e imagem
+- [ ] Criação de card
+- [ ] Atualização  de layout
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
