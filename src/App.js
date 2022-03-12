@@ -18,7 +18,6 @@ function App() {
   const searchPokemon = () => {
     Axios.get(`https://pokeapi.co/api/v2/pokemon/${pokemonName}`).then(
       (response) => {
-        console.log(response);
         setPokemonInfo({
           name: response.data.name,
           species: response.data.species.name,
@@ -32,8 +31,7 @@ function App() {
       }
     );
   };
-  console.log(pokemonInfo.type);
-
+  
   return (
     <div className="App">
       <div className="Title">
